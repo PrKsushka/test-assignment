@@ -1,0 +1,22 @@
+@import "styles/variables";
+.card {
+    width: 500px;
+    min-height: 100px;
+    background: pink;
+    border-radius: 20px;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    box-shadow: $shadow;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    cursor: pointer;
+    a{
+        display: flex;
+        width: 50%;
+    }
+    .show {
+        font-size: 12px;
+    }
+}

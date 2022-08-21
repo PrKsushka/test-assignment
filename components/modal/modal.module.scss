@@ -1,0 +1,49 @@
+@import "../../styles/variables";
+.modalWrapper {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    background: rgb(111 96 144 / 87%);
+    position: fixed;
+    top: 0;
+    left: 0;
+    align-items: center;
+    z-index: 1000;
+}
+.iconCancel{
+    background: url("../../public/cancel.png") no-repeat;
+    width: 32px;
+    height: 32px;
+    position: fixed;
+    top: 93px;
+    right: 275px;
+    cursor: pointer;
+}
+.title{
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+.bg {
+    background: white;
+    border-radius: 20px;
+    padding: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 500px;
+    p{
+        padding: 10px;
+    }
+}
+.but {
+    width: 120px;
+    height: 33px;
+    background: linear-gradient(0deg, #EDB7BC, #EDB7BC), #F4F4F4;
+    box-shadow: $shadow;
+    border-radius: 34px;
+    border: none;
+    cursor: pointer;
+    justify-content: center;
+    margin-left: 20px;
+}

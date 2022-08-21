@@ -1,0 +1,18 @@
+.preloaderWrapper {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  .preloader {
+    display: flex;
+    align-items: center;
+    background: url("../../public/spinner2.gif");
+    width: 100px;
+    height: 100px;
+    background-size: contain;
+  }
+}

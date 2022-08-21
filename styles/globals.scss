@@ -1,0 +1,48 @@
+@import "variables";
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  background: #fcd8dc;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+button {
+  width: 87px;
+  height: 33px;
+  background: linear-gradient(0deg, #EDB7BC, #EDB7BC), #F4F4F4;
+  box-shadow: $shadow;
+  border-radius: 34px;
+  border: none;
+  cursor: pointer;
+}
+form{
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  align-items: center;
+  label{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    color: white;
+  }
+  input{
+    display: flex;
+    padding: 10px;
+    width: 400px;
+    border-radius: 20px;
+    border: none;
+    margin-bottom: 20px;
+  }
+}
